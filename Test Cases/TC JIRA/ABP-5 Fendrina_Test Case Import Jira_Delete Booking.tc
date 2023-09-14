@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Fendrina_Test Case Import Jira_Delete Booking
+Description: @APITest
+
+Feature: Delete Booking
+
+As a user, I want to delete a booking via the RESTful Booker API.
+
+Scenario: Delete a Booking
+
+Given the RESTful Booker API is available at &quot;[https://restful-booker.herokuapp.com&quot;|https://restful-booker.herokuapp.com%22]
+And I have a booking with ID &quot;5944&quot;
+When I send a DELETE request to &quot;/booking/5944&quot;
+Then the booking with ID &quot;5944&quot; should be deleted
+And I should receive a status code 204</description>
+   <name>ABP-5 Fendrina_Test Case Import Jira_Delete Booking</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0003r:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;ABP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;API Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Fendrina_Test Case Import Jira_Delete Booking&quot;,&quot;description&quot;:&quot;@APITest\n\nFeature: Delete Booking\n\nAs a user, I want to delete a booking via the RESTful Booker API.\n\nScenario: Delete a Booking\n\nGiven the RESTful Booker API is available at \&quot;[https://restful-booker.herokuapp.com\&quot;|https://restful-booker.herokuapp.com%22]\nAnd I have a booking with ID \&quot;5944\&quot;\nWhen I send a DELETE request to \&quot;/booking/5944\&quot;\nThen the booking with ID \&quot;5944\&quot; should be deleted\nAnd I should receive a status code 204&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;drinatestacc@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;fendrina test&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3A4f5ed715-7e50-489c-8979-33f3115fa54f&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/ABP-5/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10020&quot;,&quot;key&quot;:&quot;ABP-5&quot;,&quot;id&quot;:10020}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>aa4f9ca7-1e2a-4bbe-ac55-d8df722d99c1</testCaseGuid>
+</TestCaseEntity>
