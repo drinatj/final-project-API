@@ -57,6 +57,6 @@ WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+WS.verifyElementPropertyValue(response, 'token', &quot;e5cbe572c2cde96&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
